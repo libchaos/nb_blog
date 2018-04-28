@@ -1,0 +1,25 @@
+{
+  "name": "libchaos_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "deploy": "gh-pages -d dist",
+    "deploy:build": "npm run docs:build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "libchaos <libchaos01@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^1.1.0",
+    "vuepress": "^0.8.4"
+  },
+  "dependencies": {
+    "@types/vue": "^2.0.0",
+    "element-ui": "^2.3.6",
+    "vue": "^2.5.16"
+  }
+}
